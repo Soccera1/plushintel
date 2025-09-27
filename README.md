@@ -28,7 +28,6 @@ PlushIntel is a whimsical chat application designed for Labubu, the mischievous 
     ```bash
     pip install -r requirements.txt
     ```
-    *(Note: A `requirements.txt` file may need to be created if it doesn't exist. Based on `app.py`, the dependencies are `Flask` and `google-generativeai`)*
 
 4.  **Set up your API key:**
     You need to have a Gemini API key. Set it as an environment variable:
