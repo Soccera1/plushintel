@@ -14,7 +14,7 @@ PlushIntel is a whimsical chat application designed for Labubu, the mischievous 
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/soccera1/plushintel.git
     cd plushintel
     ```
 
