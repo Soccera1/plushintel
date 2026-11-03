@@ -15,11 +15,11 @@
     </style>
 </head>
 <body>
-    <h1>PlushIntel 🐾</h1>
+    <h1>PlushIntel <span aria-hidden="true">🐾</span></h1>
     <div id="chat-box"></div>
     <div id="input-box">
         <input type="text" id="message" placeholder="Ask PlushIntel anything..." />
-        <button id="send">Send</button>
+        <button id="send"><span aria-hidden="true">💌</span> Send</button>
     </div>
 
     <script>
@@ -30,7 +30,8 @@
         function addMessage(sender, text) {
             const msgDiv = document.createElement("div");
             msgDiv.className = "message";
-            msgDiv.innerHTML = `<span class="${sender}">${sender}:</span> ${text}`;
+            const emoji = sender === "Labubu" ? "🧸" : "🐾";
+            msgDiv.innerHTML = `<span aria-hidden="true">${emoji}</span> <span class="${sender}">${sender}:</span> ${text}`;
             chatBox.appendChild(msgDiv);
             chatBox.scrollTop = chatBox.scrollHeight;
         }

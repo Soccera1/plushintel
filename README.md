@@ -1,46 +1,54 @@
-# PlushIntel 🐾
+<a id="plushintel-"></a>
 
-PlushIntel is a whimsical chat application designed for Labubu, the mischievous plush toy. Powered by Google's Gemini API, PlushIntel acts as a playful assistant, offering fun facts, collection tips, and toy-friendly advice.
+# 🧸 PlushIntel 🐾💬
 
-## Features
+✨ PlushIntel is a whimsical chat application designed for Labubu, the mischievous plush toy. Powered by Google's Gemini API, PlushIntel acts as a playful assistant, offering fun facts, collection tips, and toy-friendly advice.
 
--   **Interactive Chat Interface:** A simple and cute web-based chat window.
--   **Playful AI Assistant:** The backend is configured with a system prompt to be a helpful and playful companion for a plush toy.
--   **Session-based Memory:** Remembers the conversation history for the current session.
--   **Flask-powered:** A lightweight and simple web framework for the backend.
--   **Gemini API Integration:** Uses the `google.generativeai` library to connect to the Gemini API.
+<a id="features"></a>
 
-## Installation
+## ✨ Features 🎯
 
-1.  **Clone the repository:**
+-   💬 **Interactive Chat Interface:** A simple and cute web-based chat window 🌐.
+-   🧸 **Playful AI Assistant:** The backend is configured with a system prompt to be a helpful and playful companion for a plush toy ✨.
+-   🧠 **Session-based Memory:** Remembers the conversation history for the current session.
+-   🧪 **Flask-powered:** A lightweight and simple web framework for the backend.
+-   🔌 **Gemini API Integration:** Uses the `google.generativeai` library to connect to the Gemini API.
+
+<a id="installation"></a>
+
+## 🛠️ Installation 🚀
+
+1.  📥 **Clone the repository:**
     ```bash
     git clone https://github.com/soccera1/plushintel.git
     cd plushintel
     ```
 
-2.  **Create and activate a virtual environment:**
+2.  🧰 **Create and activate a virtual environment:**
     ```bash
     python -m venv venv
     source venv/bin/activate
     ```
 
-3.  **Install the dependencies:**
+3.  🛠️ **Install the dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
 
-4.  **Set up your API key:**
+4.  🔑 **Set up your API key:**
     You need to have a Gemini API key. Set it as an environment variable:
     ```bash
     export GEMINI_API_KEY="your-api-key-here"
     ```
 
-## Usage
+<a id="usage"></a>
 
-1.  **Run the Flask application:**
+## 🚀 Usage ▶️
+
+1.  🚀 **Run the Flask application:**
     ```bash
     python app.py
     ```
 
-2.  **Open your browser:**
+2.  🌐 **Open your browser:**
     Navigate to `http://127.0.0.1:5000` to start chatting with PlushIntel!
